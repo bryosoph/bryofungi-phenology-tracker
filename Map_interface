@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryophilous Fungi Phenology Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body, html, #map { margin: 0; padding: 0; height: 100%; width: 100%; font-family: sans-serif; }
+        .popup-title { font-weight: bold; font-style: italic; color: #1e3a8a; font-size: 1.1em; }
+        .popup-meta { margin-top: 6px; font-size: 0.9em; color: #4b5563; line-height: 1.4; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Centered over North America at zoom level 4 to capture the full continent
+        const map = L.map('map').setView([40.0, -97.0], 4); 
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        fetch('data.geojson')
+            .then(res => res.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        const rawDate = feature.properties.d;
+                        const eventDate = new Date(rawDate + 'T00:00:00');
+                        const formattedDate = eventDate.toLocaleDateString('en-US', { 
+                            month: 'long', day: 'numeric', year: 'numeric' 
+                        });
+
+                        layer.bindPopup(`
+                            <div class="popup-title">${feature.properties.s}</div>
+                            <div class="popup-meta">
+                                <strong>Observed:</strong> ${formattedDate}<br>
+                                <strong>Platform:</strong> ${feature.properties.p}
+                            </div>
+                        `);
+                    }
+                }).addTo(map);
+            });
+    </script>
+</body>
+</html>
