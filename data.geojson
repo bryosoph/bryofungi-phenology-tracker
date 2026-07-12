@@ -10582,22 +10582,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.157674,
-          46.276708
-        ]
-      },
-      "properties": {
-        "s": "Arrhenia retiruga",
-        "d": "1917-09",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144826607"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -124.16276,
           40.86586
         ]
@@ -10623,6 +10607,22 @@
         "d": "1911-09",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1144844259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.157674,
+          46.276708
+        ]
+      },
+      "properties": {
+        "s": "Arrhenia retiruga",
+        "d": "1917-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1144826607"
       }
     },
     {
@@ -10662,22 +10662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.9,
-          49.25
-        ]
-      },
-      "properties": {
-        "s": "Arrhenia retiruga",
-        "d": "1986-04",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1987962142"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.471571,
           47.261953
         ]
@@ -10687,22 +10671,6 @@
         "d": "2019-12-23",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3067614703"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.70833,
-          42.19472
-        ]
-      },
-      "properties": {
-        "s": "Arrhenia retiruga",
-        "d": "1961-12-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895634504"
       }
     },
     {
@@ -11270,22 +11238,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.5925,
-          64.2017
-        ]
-      },
-      "properties": {
-        "s": "Bryochiton perpusillus",
-        "d": "2010/2021",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3761703940"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.3258,
           39.0236
         ]
@@ -11323,10 +11275,58 @@
         ]
       },
       "properties": {
+        "s": "Bryochiton perpusillus",
+        "d": "2010/2021",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3761703940"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.5925,
+          64.2017
+        ]
+      },
+      "properties": {
         "s": "Bryochiton monascus",
         "d": "2010/2021",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3761454937"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.1297,
+          51.6522
+        ]
+      },
+      "properties": {
+        "s": "Bryochiton Döbbeler",
+        "d": "2016-04-16",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3910450807"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0636,
+          46.3664
+        ]
+      },
+      "properties": {
+        "s": "Bryochiton Döbbeler",
+        "d": "2015-10-06",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3916344518"
       }
     },
     {
@@ -11356,41 +11356,9 @@
       },
       "properties": {
         "s": "Bryochiton Döbbeler",
-        "d": "2016-04-16",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3910450807"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.1297,
-          51.6522
-        ]
-      },
-      "properties": {
-        "s": "Bryochiton Döbbeler",
         "d": "2015-07-23",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3910299721"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.0636,
-          46.3664
-        ]
-      },
-      "properties": {
-        "s": "Bryochiton Döbbeler",
-        "d": "2015-10-06",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3916344518"
       }
     },
     {
@@ -11462,6 +11430,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -81.0636,
+          46.3664
+        ]
+      },
+      "properties": {
+        "s": "Bryochiton Döbbeler",
+        "d": "2015-08-11",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3916487407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -50.6793,
           67.0295
         ]
@@ -11515,58 +11499,10 @@
         ]
       },
       "properties": {
-        "s": "Bryochiton Döbbeler",
-        "d": "2015-08-11",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3916487407"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -128.1297,
-          51.6522
-        ]
-      },
-      "properties": {
-        "s": "Bryochiton Döbbeler",
-        "d": "2015-10-28",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3910126801"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.0636,
-          46.3664
-        ]
-      },
-      "properties": {
         "s": "Bryochiton monascus",
         "d": "2015-08-11",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3916798392"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.0636,
-          46.3664
-        ]
-      },
-      "properties": {
-        "s": "Bryochiton Döbbeler",
-        "d": "2015-09-08",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3916932577"
       }
     },
     {
@@ -11599,6 +11535,38 @@
         "d": "2015-08-01",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/6271719065"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -128.1297,
+          51.6522
+        ]
+      },
+      "properties": {
+        "s": "Bryochiton Döbbeler",
+        "d": "2015-10-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3910126801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0636,
+          46.3664
+        ]
+      },
+      "properties": {
+        "s": "Bryochiton Döbbeler",
+        "d": "2015-09-08",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3916932577"
       }
     },
     {
@@ -11910,22 +11878,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -52.5,
-          69.73
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1975-07-30",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196610074"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -50.63,
           63.22
         ]
@@ -11951,6 +11903,22 @@
         "d": "1946-08-06",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5196586560"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.5,
+          69.73
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1975-07-30",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5196610074"
       }
     },
     {
@@ -12006,70 +11974,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -50.67,
-          63.42
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1973-08-24",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196631630"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.55,
-          69.25
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1967-08-19",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196665516"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.760498,
-          39.875085
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "2000-07-12",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243347437"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.613704,
-          39.683056
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "2020-08-22",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3329035384"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -53.55,
           69.25
         ]
@@ -12078,39 +11982,7 @@
         "s": "Bryoglossum gracile",
         "d": "1967-08-20",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196655243"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.12,
-          69.2
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1971-08-04",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196657344"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.37,
-          63.23
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1973-08-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196560426"
+        "u": "https://www.gbif.org/occurrence/5196633776"
       }
     },
     {
@@ -12134,15 +12006,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.58,
-          71.67
+          -50.67,
+          63.42
         ]
       },
       "properties": {
         "s": "Bryoglossum gracile",
-        "d": "1972-08-14",
+        "d": "1973-08-24",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196706569"
+        "u": "https://www.gbif.org/occurrence/5196631630"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.72,
+          66.97
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1972-08-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5196579885"
       }
     },
     {
@@ -12182,15 +12070,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.72,
-          66.97
+          -55.58,
+          71.67
         ]
       },
       "properties": {
         "s": "Bryoglossum gracile",
-        "d": "1972-08-28",
+        "d": "1972-08-14",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196579885"
+        "u": "https://www.gbif.org/occurrence/5196706569"
       }
     },
     {
@@ -12198,15 +12086,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.634711,
-          39.663818
+          -105.760498,
+          39.875085
         ]
       },
       "properties": {
         "s": "Bryoglossum gracile",
-        "d": "2019-09-19",
+        "d": "2000-07-12",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2550492054"
+        "u": "https://www.gbif.org/occurrence/2243347437"
       }
     },
     {
@@ -12214,15 +12102,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.564198,
-          39.108502
+          -53.55,
+          69.25
         ]
       },
       "properties": {
         "s": "Bryoglossum gracile",
-        "d": "2000-08-03",
+        "d": "1967-08-19",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243348403"
+        "u": "https://www.gbif.org/occurrence/5196665516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.12,
+          69.2
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1971-08-04",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5196657344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.613704,
+          39.683056
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "2020-08-22",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3329035384"
       }
     },
     {
@@ -12239,6 +12159,22 @@
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5196609287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.37,
+          63.23
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1973-08-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5196560426"
       }
     },
     {
@@ -12278,6 +12214,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.634711,
+          39.663818
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "2019-09-19",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2550492054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.564198,
+          39.108502
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "2000-08-03",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2243348403"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -106.563919,
           39.108879
         ]
@@ -12287,6 +12255,22 @@
         "d": "2000-08-03",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2243346707"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.624764,
+          39.121168
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1999-08-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2243347499"
       }
     },
     {
@@ -12310,6 +12294,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.62486,
+          39.121356
+        ]
+      },
+      "properties": {
+        "s": "Bryoglossum gracile",
+        "d": "1999-08-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2243350328"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -106.620584,
           39.124637
         ]
@@ -12326,15 +12326,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.62486,
-          39.121356
+          -105.71014,
+          39.59673
         ]
       },
       "properties": {
         "s": "Bryoglossum gracile",
-        "d": "1999-08-09",
+        "d": "2018-08-09",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243350328"
+        "u": "https://www.gbif.org/occurrence/2243345381"
       }
     },
     {
@@ -12374,38 +12374,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.624764,
-          39.121168
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "1999-08-09",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243347499"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.71014,
-          39.59673
-        ]
-      },
-      "properties": {
-        "s": "Bryoglossum gracile",
-        "d": "2018-08-09",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243345381"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.7453,
           46.7753
         ]
@@ -12430,7 +12398,7 @@
         "s": "Bryoglossum gracile",
         "d": "1952-10-05",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1989123809"
+        "u": "https://www.gbif.org/occurrence/1989330252"
       }
     },
     {
@@ -12494,39 +12462,7 @@
         "s": "Bryonectria callicarpa",
         "d": "2015-05-24",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1931207117"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.22034,
-          35.01118
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2015-08-02",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1931308648"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.27708,
-          34.8101
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-10-20",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1931059511"
+        "u": "https://www.gbif.org/occurrence/1929514344"
       }
     },
     {
@@ -12550,70 +12486,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.12023,
-          35.10939
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-10-27",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1930609574"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.68869,
-          34.84997
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2013-07-28",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1929028900"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.96553,
-          34.64628
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2015-04-18",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928762843"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.69743,
-          33.70257
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2013-09-29",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928759996"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -87.6194,
           34.90814
         ]
@@ -12622,39 +12494,7 @@
         "s": "Bryonectria callicarpa",
         "d": "2015-05-26",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1929366470"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.9922,
-          34.24548
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-05-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928303030"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.78452,
-          34.58319
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2015-12-13",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928244229"
+        "u": "https://www.gbif.org/occurrence/1931218483"
       }
     },
     {
@@ -12726,15 +12566,95 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61933,
-          34.90778
+          -88.12023,
+          35.10939
         ]
       },
       "properties": {
         "s": "Bryonectria callicarpa",
-        "d": "2015-05-26",
+        "d": "2016-10-27",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1929941457"
+        "u": "https://www.gbif.org/occurrence/1930609574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.78452,
+          34.58319
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-12-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928244229"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.69743,
+          33.70257
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-09-29",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928759996"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9922,
+          34.24548
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-05-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928303030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22034,
+          35.01118
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-08-02",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931308648"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.27708,
+          34.8101
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-10-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931059511"
       }
     },
     {
@@ -12822,15 +12742,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.974272,
-          34.237159
+          -87.68869,
+          34.84997
         ]
       },
       "properties": {
         "s": "Bryonectria callicarpa",
-        "d": "2016-05-05",
+        "d": "2013-07-28",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928874457"
+        "u": "https://www.gbif.org/occurrence/1931042750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96553,
+          34.64628
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-04-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928762843"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61933,
+          34.90778
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-05-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929941457"
       }
     },
     {
@@ -12846,7 +12798,7 @@
         "s": "Bryonectria callicarpa",
         "d": "2016-03-05",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928806534"
+        "u": "https://www.gbif.org/occurrence/1929053558"
       }
     },
     {
@@ -12870,15 +12822,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.52145,
-          34.93281
+          -87.34129,
+          34.29012
         ]
       },
       "properties": {
-        "s": "Bryonectria anisopoda",
-        "d": "2013-08-05",
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-05",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928230573"
+        "u": "https://www.gbif.org/occurrence/1930740583"
       }
     },
     {
@@ -12886,15 +12838,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.54734,
-          35.12139
+          -87.974272,
+          34.237159
         ]
       },
       "properties": {
-        "s": "Bryonectria anisopoda",
-        "d": "2015-08-07",
+        "s": "Bryonectria callicarpa",
+        "d": "2016-05-05",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1928666003"
+        "u": "https://www.gbif.org/occurrence/1930918000"
       }
     },
     {
@@ -12918,31 +12870,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.50753,
-          34.31286
+          -83.54734,
+          35.12139
         ]
       },
       "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-04-24",
+        "s": "Bryonectria anisopoda",
+        "d": "2015-08-07",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1931152769"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.34129,
-          34.29012
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-03-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1930740583"
+        "u": "https://www.gbif.org/occurrence/1928666003"
       }
     },
     {
@@ -12959,6 +12895,38 @@
         "d": "2013-09-25",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1930268770"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.52145,
+          34.93281
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria anisopoda",
+        "d": "2013-08-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928230573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.50753,
+          34.31286
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-04-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931152769"
       }
     },
     {
@@ -13030,22 +12998,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.74817,
-          35.43708
-        ]
-      },
-      "properties": {
-        "s": "Bryonectria callicarpa",
-        "d": "2016-03-18",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1927908214"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -67.9544,
           44.4408
         ]
@@ -13055,6 +13007,22 @@
         "d": "2013-07-11",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1930244987"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74817,
+          35.43708
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1927908214"
       }
     },
     {
@@ -13126,22 +13094,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.553296,
-          45.425355
-        ]
-      },
-      "properties": {
-        "s": "Bryoscyphus dicrani",
-        "d": "2026-03-14",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/6188415390"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.0214,
           34.1723
         ]
@@ -13151,6 +13103,22 @@
         "d": "2010-09-28",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3301327352"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.553296,
+          45.425355
+        ]
+      },
+      "properties": {
+        "s": "Bryoscyphus dicrani",
+        "d": "2026-03-14",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/6188415390"
       }
     },
     {
@@ -13702,47 +13670,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9669,
-          40.7869
+          -114.915007,
+          46.613069
         ]
       },
       "properties": {
         "s": "Coniochaeta (Sacc.)",
-        "d": "Unknown Date",
+        "d": "1967-07-29",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2569305544"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9597,
-          40.7965
-        ]
-      },
-      "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "Unknown Date",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2568890554"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9577,
-          40.7939
-        ]
-      },
-      "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "Unknown Date",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2569304163"
+        "u": "https://www.gbif.org/occurrence/3965626742"
       }
     },
     {
@@ -13759,22 +13695,6 @@
         "d": "1884-01-11",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3965671875"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.915007,
-          46.613069
-        ]
-      },
-      "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "1967-07-29",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965626742"
       }
     },
     {
@@ -13830,15 +13750,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.86778,
-          46.80361
+          -117.176995,
+          46.078854
         ]
       },
       "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "1934-09-30",
+        "s": "Coniochaeta sarothamni",
+        "d": "1996-04-28",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965617765"
+        "u": "https://www.gbif.org/occurrence/3965617039"
       }
     },
     {
@@ -13846,15 +13766,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.435,
-          47.977
+          -122.30944,
+          41.31
         ]
       },
       "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "2002-08-31",
+        "s": "Coniochaeta malacotricha",
+        "d": "1950-09-28",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1135734221"
+        "u": "https://www.gbif.org/occurrence/3965684242"
       }
     },
     {
@@ -13910,22 +13830,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9762,
-          40.7716
-        ]
-      },
-      "properties": {
-        "s": "Coniochaeta (Sacc.)",
-        "d": "Unknown Date",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2568887778"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -73.9583,
           40.7943
         ]
@@ -13942,15 +13846,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9601,
-          40.7831
+          -73.9762,
+          40.7716
         ]
       },
       "properties": {
         "s": "Coniochaeta (Sacc.)",
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2569294914"
+        "u": "https://www.gbif.org/occurrence/2568887778"
       }
     },
     {
@@ -13974,15 +13878,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.176995,
-          46.078854
+          -73.9601,
+          40.7831
         ]
       },
       "properties": {
-        "s": "Coniochaeta sarothamni",
-        "d": "1996-04-28",
+        "s": "Coniochaeta (Sacc.)",
+        "d": "Unknown Date",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965617039"
+        "u": "https://www.gbif.org/occurrence/2569294914"
       }
     },
     {
@@ -13990,15 +13894,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.30944,
-          41.31
+          -116.86778,
+          46.80361
         ]
       },
       "properties": {
-        "s": "Coniochaeta malacotricha",
-        "d": "1950-09-28",
+        "s": "Coniochaeta (Sacc.)",
+        "d": "1934-09-30",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965684242"
+        "u": "https://www.gbif.org/occurrence/3965617765"
       }
     },
     {
@@ -14022,6 +13926,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.9669,
+          40.7869
+        ]
+      },
+      "properties": {
+        "s": "Coniochaeta (Sacc.)",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2569305544"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9597,
+          40.7965
+        ]
+      },
+      "properties": {
+        "s": "Coniochaeta (Sacc.)",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2568890554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9577,
+          40.7939
+        ]
+      },
+      "properties": {
+        "s": "Coniochaeta (Sacc.)",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2569304163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -149.53426,
           60.850067
         ]
@@ -14031,6 +13983,22 @@
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5862118116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.435,
+          47.977
+        ]
+      },
+      "properties": {
+        "s": "Coniochaeta (Sacc.)",
+        "d": "2002-08-31",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1135734221"
       }
     },
     {
@@ -14390,22 +14358,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.83222,
-          43.0175
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "Unknown Date",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144830764"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -80.484142,
           43.050796
         ]
@@ -14415,6 +14367,22 @@
         "d": "1935-08-13",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5232907946"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.83222,
+          43.0175
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1144830764"
       }
     },
     {
@@ -14518,22 +14486,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.496607,
-          42.440628
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "1901-07-23",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144809970"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.68793,
           47.6286
         ]
@@ -14543,6 +14495,22 @@
         "d": "1941-08-06",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3893644175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.291044,
+          42.552016
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "1925-08-01",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3938598544"
       }
     },
     {
@@ -14575,6 +14543,22 @@
         "d": "2022-06-22",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3859643775"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.496607,
+          42.440628
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "1901-07-23",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1144809970"
       }
     },
     {
@@ -14623,22 +14607,6 @@
         "d": "1908-07-24",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2573271760"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.291044,
-          42.552016
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "1925-08-01",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3938598544"
       }
     },
     {
@@ -15414,6 +15382,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -89.050359,
+          41.052533
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "1982-05-25",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5898553159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -93.26155,
           44.972228
         ]
@@ -15423,22 +15407,6 @@
         "d": "1905-07",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2268254122"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.57639,
-          46.55306
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "1897-07-19",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965656828"
       }
     },
     {
@@ -15487,22 +15455,6 @@
         "d": "1943-07",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3965621173"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.050359,
-          41.052533
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "1982-05-25",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5898553159"
       }
     },
     {
@@ -15670,6 +15622,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -91.57639,
+          46.55306
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "1897-07-19",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3965656828"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -83.492553,
           35.681167
         ]
@@ -15734,22 +15702,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.998801,
-          35.157929
-        ]
-      },
-      "properties": {
-        "s": "Eocronartium muscicola",
-        "d": "2023-08-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4523425980"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -80.353092,
           43.371125
         ]
@@ -15766,15 +15718,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.15,
-          41.4333
+          -82.998801,
+          35.157929
         ]
       },
       "properties": {
         "s": "Eocronartium muscicola",
-        "d": "Unknown Date",
+        "d": "2023-08-26",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144831846"
+        "u": "https://www.gbif.org/occurrence/4523425980"
       }
     },
     {
@@ -15791,6 +15743,22 @@
         "d": "2024-07-19",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/4910958828"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.15,
+          41.4333
+        ]
+      },
+      "properties": {
+        "s": "Eocronartium muscicola",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1144831846"
       }
     },
     {
@@ -15910,6 +15878,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -125.450217,
+          50.162593
+        ]
+      },
+      "properties": {
+        "s": "Epibryon casaresii",
+        "d": "2024-02-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4522651124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.33,
           51.75
         ]
@@ -15990,22 +15974,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.734066,
-          45.403229
-        ]
-      },
-      "properties": {
-        "s": "Helotium Pers.",
-        "d": "1947-09-14",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2423614272"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -72.733333,
           45.4
         ]
@@ -16038,6 +16006,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -72.734066,
+          45.403229
+        ]
+      },
+      "properties": {
+        "s": "Helotium Pers.",
+        "d": "1947-09-14",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2423614272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -78.85025,
           45.183005
         ]
@@ -16047,22 +16031,6 @@
         "d": "1963-09-15",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5232940093"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.119613,
-          47.822124
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1960-05-09",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895609735"
       }
     },
     {
@@ -16118,6 +16086,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.119613,
+          47.822124
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1960-05-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895609735"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -150.7,
           63.533333
         ]
@@ -16127,6 +16111,38 @@
         "d": "1991-08-18",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5895637137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.119613,
+          47.822124
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1965",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895703271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.373869,
+          42.449847
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1937-11-02",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2573273981"
       }
     },
     {
@@ -16166,6 +16182,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -78.369598,
+          45.698027
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1956-09-25",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232939825"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -80.089259,
           46.964
         ]
@@ -16175,22 +16207,6 @@
         "d": "1932-09-11",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5232988763"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.373869,
-          42.449847
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1937-11-02",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2573273981"
       }
     },
     {
@@ -16230,15 +16246,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.369598,
-          45.698027
+          -79.99639,
+          47.01283
         ]
       },
       "properties": {
         "s": "Helotium Tode,",
-        "d": "1956-09-25",
+        "d": "1932-06-26",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232939825"
+        "u": "https://www.gbif.org/occurrence/5232935320"
       }
     },
     {
@@ -16294,38 +16310,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.247917,
-          47.198978
-        ]
-      },
-      "properties": {
-        "s": "Helotium epiphyllum",
-        "d": "1935-09-02",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232915752"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.068102,
-          46.983122
-        ]
-      },
-      "properties": {
-        "s": "Helotium epiphyllum",
-        "d": "1946-09-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232978033"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.949641,
           47.78106
         ]
@@ -16358,6 +16342,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -150.7,
+          63.533333
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1991-07-22",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895565394"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.847277,
           45.482091
         ]
@@ -16374,38 +16374,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.119613,
-          47.822124
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1965",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895703271"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.99639,
-          47.01283
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1932-06-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232935320"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -123.166667,
           49.833333
         ]
@@ -16415,6 +16383,54 @@
         "d": "1961-10",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1987937160"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.337604,
+          47.713714
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1952-07-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895707668"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.7,
+          63.533333
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1991-07-31",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895588002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.654333,
+          65.404667
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1998-08-06",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895570182"
       }
     },
     {
@@ -16518,6 +16534,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -80.247917,
+          47.198978
+        ]
+      },
+      "properties": {
+        "s": "Helotium epiphyllum",
+        "d": "1935-09-02",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232915752"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.068102,
+          46.983122
+        ]
+      },
+      "properties": {
+        "s": "Helotium epiphyllum",
+        "d": "1946-09-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232978033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.17583,
           48.05194
         ]
@@ -16598,6 +16646,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.119613,
+          47.822124
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1956-09-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895697487"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -93.26361,
           44.98
         ]
@@ -16646,22 +16710,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -150.7,
-          63.533333
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1991-07-22",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895565394"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -80.068102,
           46.983122
         ]
@@ -16694,15 +16742,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.678147,
-          29.991908
+          -79.513893,
+          43.668617
         ]
       },
       "properties": {
-        "s": "Helotium Tode,",
-        "d": "1881",
+        "s": "Helotium urticae",
+        "d": "1936-10-19",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3893649218"
+        "u": "https://www.gbif.org/occurrence/5232954931"
       }
     },
     {
@@ -16710,47 +16758,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.119613,
-          47.822124
+          -78.306727,
+          45.589687
         ]
       },
       "properties": {
-        "s": "Helotium Tode,",
-        "d": "1956-09-13",
+        "s": "Helotium erraticum",
+        "d": "1939-09-05",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895697487"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.666667,
-          71.283333
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1979",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895654313"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.22028,
-          43.87889
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1915-09",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895705482"
+        "u": "https://www.gbif.org/occurrence/5232976528"
       }
     },
     {
@@ -16783,6 +16799,38 @@
         "d": "1930-09-16",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5232962147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.666667,
+          71.283333
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1979",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895654313"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.22028,
+          43.87889
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1915-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895705482"
       }
     },
     {
@@ -16854,6 +16902,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.119613,
+          47.822124
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1954-10-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895594192"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.613331,
+          47.826986
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1958-10-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895649156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -84.72778,
           45.78389
         ]
@@ -16879,6 +16959,102 @@
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3893626198"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.105288,
+          49.297311
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1957-09-16",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232977986"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.605435,
+          45.497474
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1907-08-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895579537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.601025,
+          43.166876
+        ]
+      },
+      "properties": {
+        "s": "Helotium epiphyllum",
+        "d": "1943-09-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232992585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.25,
+          49.25
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1964-10",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1987959793"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.25,
+          49.25
+        ]
+      },
+      "properties": {
+        "s": "Helotium citrinum",
+        "d": "1966-11",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1987958131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.068102,
+          46.983122
+        ]
+      },
+      "properties": {
+        "s": "Helotium populinum",
+        "d": "1933-08-15",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5232955258"
       }
     },
     {
@@ -16934,134 +17110,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.105288,
-          49.297311
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1957-09-16",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232977986"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.25,
-          49.25
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1964-10",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1987959793"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.25,
-          49.25
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1966-11",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1987958131"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.605435,
-          45.497474
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1907-08-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895579537"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.601025,
-          43.166876
-        ]
-      },
-      "properties": {
-        "s": "Helotium epiphyllum",
-        "d": "1943-09-13",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232992585"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.337604,
-          47.713714
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1952-07-20",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895707668"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.7,
-          63.533333
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1991-07-31",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895588002"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -164.654333,
-          65.404667
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1998-08-06",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895570182"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.119613,
           47.822124
         ]
@@ -17071,6 +17119,38 @@
         "d": "1954-11-21",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5895708232"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.678147,
+          29.991908
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1881",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3893649218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.040333,
+          67.132333
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1999-08-03",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895576245"
       }
     },
     {
@@ -17126,38 +17206,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.119613,
-          47.822124
-        ]
-      },
-      "properties": {
-        "s": "Helotium citrinum",
-        "d": "1954-10-24",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895594192"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.613331,
-          47.826986
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1958-10-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895649156"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.649591,
           43.841584
         ]
@@ -17199,22 +17247,6 @@
         "d": "1917-09",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2268238116"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -159.040333,
-          67.132333
-        ]
-      },
-      "properties": {
-        "s": "Helotium Tode,",
-        "d": "1999-08-03",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895576245"
       }
     },
     {
@@ -17286,6 +17318,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -149.356667,
+          60.252333
+        ]
+      },
+      "properties": {
+        "s": "Helotium Tode,",
+        "d": "1998-07-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895628859"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.25,
           49.25
         ]
@@ -17318,47 +17366,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.649591,
-          43.841584
+          -83.408604,
+          33.419154
         ]
       },
       "properties": {
-        "s": "Helotium cyathoideum",
-        "d": "1953-06-21",
+        "s": "Helotium midlandense",
+        "d": "1947-10-14",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232912079"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.513893,
-          43.668617
-        ]
-      },
-      "properties": {
-        "s": "Helotium urticae",
-        "d": "1936-10-19",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232954931"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.306727,
-          45.589687
-        ]
-      },
-      "properties": {
-        "s": "Helotium erraticum",
-        "d": "1939-09-05",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5232976528"
+        "u": "https://www.gbif.org/occurrence/3938589097"
       }
     },
     {
@@ -17542,6 +17558,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -121.153438,
+          47.692175
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora De",
+        "d": "1982-07-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5895693389"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -64.478193,
           45.064224
         ]
@@ -17606,22 +17638,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.265097,
-          39.438066
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora De",
-        "d": "1908-07-16",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144805483"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -84.157674,
           46.276708
         ]
@@ -17638,15 +17654,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.818028,
-          41.893991
+          -84.794167,
+          35.519444
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora wrightii",
+        "d": "1941-03-23",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1990286917"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.265097,
+          39.438066
         ]
       },
       "properties": {
         "s": "Lamprospora De",
-        "d": "1898-05",
+        "d": "1908-07-16",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1144807879"
+        "u": "https://www.gbif.org/occurrence/1144805483"
       }
     },
     {
@@ -17702,22 +17734,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.153438,
-          47.692175
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora De",
-        "d": "1982-07-13",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5895693389"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -90.3333,
           41.6
         ]
@@ -17727,6 +17743,22 @@
         "d": "1888-06-16",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1144825414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.818028,
+          41.893991
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora De",
+        "d": "1898-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1144807879"
       }
     },
     {
@@ -17830,22 +17862,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.7539,
-          39.387
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora tuberculata",
-        "d": "2019-06-23",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5083770401"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -78.71438,
           45.181674
         ]
@@ -17871,6 +17887,22 @@
         "d": "1942-08-25",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1990288185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.52,
+          71.36
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora De",
+        "d": "2015-05-03",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2441017568"
       }
     },
     {
@@ -18022,22 +18054,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.52,
-          71.36
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora De",
-        "d": "2015-05-03",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2441017568"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -82.02,
           29.68
         ]
@@ -18118,22 +18134,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.078333,
-          36.025
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora wrightii",
-        "d": "1934-03-04",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990278781"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -84.677628,
           45.558666
         ]
@@ -18150,15 +18150,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.794167,
-          35.519444
+          -84.078333,
+          36.025
         ]
       },
       "properties": {
         "s": "Lamprospora wrightii",
-        "d": "1941-03-23",
+        "d": "1934-03-04",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990286917"
+        "u": "https://www.gbif.org/occurrence/1990278781"
       }
     },
     {
@@ -18182,6 +18182,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -89.41611,
+          43.04667
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora constellatio",
+        "d": "1953-09-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3965638233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.25,
           49.25
         ]
@@ -18191,6 +18207,22 @@
         "d": "1968-06",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1987942252"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.148611,
+          36.15
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora trachycarpa",
+        "d": "1946-08-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1990291550"
       }
     },
     {
@@ -18246,38 +18278,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.148611,
-          36.15
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora trachycarpa",
-        "d": "1946-08-28",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990291550"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.605488,
-          39.960664
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora modesta",
-        "d": "1881-10",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4464731841"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -73.9594,
           40.7968
         ]
@@ -18294,15 +18294,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.41611,
-          43.04667
+          -75.605488,
+          39.960664
         ]
       },
       "properties": {
-        "s": "Lamprospora constellatio",
-        "d": "1953-09-05",
+        "s": "Lamprospora modesta",
+        "d": "1881-10",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3965638233"
+        "u": "https://www.gbif.org/occurrence/4464731841"
       }
     },
     {
@@ -18358,6 +18358,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.7539,
+          39.387
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora tuberculata",
+        "d": "2019-06-23",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5083770401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -116.533852,
           46.799438
         ]
@@ -18406,22 +18422,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.219792,
-          43.878962
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora crechqueraultii",
-        "d": "1916-08",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5076397093"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.86778,
           46.80361
         ]
@@ -18431,22 +18431,6 @@
         "d": "1965-08-13",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/3965660855"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.25,
-          49.25
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora carbonaria",
-        "d": "1970-06",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1987935070"
       }
     },
     {
@@ -18470,6 +18454,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.25,
+          49.25
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora carbonaria",
+        "d": "1970-06",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1987935070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.176944,
           48.051667
         ]
@@ -18479,22 +18479,6 @@
         "d": "1928-08",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/4134340731"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.1215,
-          44.4133
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora crechqueraultii",
-        "d": "2019-08-10",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2447217053"
       }
     },
     {
@@ -18518,6 +18502,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.219792,
+          43.878962
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crechqueraultii",
+        "d": "1916-08",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5076397093"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -105.6429,
           39.9933
         ]
@@ -18527,6 +18527,22 @@
         "d": "2005-08-30",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2243351679"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1215,
+          44.4133
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crechqueraultii",
+        "d": "2019-08-10",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2447217053"
       }
     },
     {
@@ -18587,58 +18603,10 @@
         ]
       },
       "properties": {
-        "s": "Lamprospora rugensis",
-        "d": "1984-07-23",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/125741243"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.21903,
-          29.6932
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora De",
-        "d": "1934-06-06",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5069250255"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.92,
-          78.88
-        ]
-      },
-      "properties": {
         "s": "Lamprospora crouanii",
         "d": "1984-08-04",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/125741245"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.751667,
-          32.304444
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora crouanii",
-        "d": "1926-02-03",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4104416229"
       }
     },
     {
@@ -18678,22 +18646,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.92,
-          78.88
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora rugensis",
-        "d": "1984-07-30",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196665442"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -105.474,
           39.6901
         ]
@@ -18726,6 +18678,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.22028,
+          43.87889
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crec",
+        "d": "1916-08",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5069268594"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.92,
           78.88
         ]
@@ -18735,6 +18703,22 @@
         "d": "1984-07-26",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5196660019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.92,
+          78.88
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora rugensis",
+        "d": "1984-07-23",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/125741243"
       }
     },
     {
@@ -18758,15 +18742,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.22028,
-          43.87889
+          -75.92,
+          78.88
         ]
       },
       "properties": {
-        "s": "Lamprospora crec",
-        "d": "1916-08",
+        "s": "Lamprospora rugensis",
+        "d": "1984-07-30",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5069268594"
+        "u": "https://www.gbif.org/occurrence/5196665442"
       }
     },
     {
@@ -18783,22 +18767,6 @@
         "d": "1992-09-12",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/125741241"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.33,
-          72.5
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora rugensis",
-        "d": "1972-08-15",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196690822"
       }
     },
     {
@@ -18838,15 +18806,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.92,
-          78.88
+          -54.33,
+          72.5
         ]
       },
       "properties": {
-        "s": "Lamprospora crouanii",
-        "d": "1984-07-29",
+        "s": "Lamprospora rugensis",
+        "d": "1972-08-15",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5196664153"
+        "u": "https://www.gbif.org/occurrence/5196690822"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.21903,
+          29.6932
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora De",
+        "d": "1934-06-06",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5069250255"
       }
     },
     {
@@ -18870,6 +18854,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -75.92,
+          78.88
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crouanii",
+        "d": "1984-07-29",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5196664153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -156.73,
           71.297
         ]
@@ -18879,6 +18879,38 @@
         "d": "1980-08-19",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/125741239"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.697287,
+          40.355463
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crechqueraultii",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4104555228"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.813389,
+          42.686248
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora crechqueraultii",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4104468179"
       }
     },
     {
@@ -18902,31 +18934,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.199627,
-          41.929193
+          -75.92,
+          78.88
         ]
       },
       "properties": {
-        "s": "Lamprospora crechqueraultii",
-        "d": "Unknown Date",
+        "s": "Lamprospora minuta",
+        "d": "1984-07-24",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4104509182"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.291044,
-          42.552016
-        ]
-      },
-      "properties": {
-        "s": "Lamprospora crechqueraultii",
-        "d": "1919-06-27",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4104418532"
+        "u": "https://www.gbif.org/occurrence/5196645941"
       }
     },
     {
@@ -19126,22 +19142,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.863333,
-          45.08527
-        ]
-      },
-      "properties": {
-        "s": "Lizonia emperigonia",
-        "d": "2016-09-20",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5898594506"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -145.403,
           65.4844
         ]
@@ -19151,6 +19151,22 @@
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/4438026313"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863333,
+          45.08527
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2016-09-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5898594506"
       }
     },
     {
@@ -20294,15 +20310,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.174944,
-          41.715833
+          -120.13,
+          51.97
         ]
       },
       "properties": {
-        "s": "Mniaecia jungermanniae",
-        "d": "2021-01-13",
+        "s": "Mniaecia nivea",
+        "d": "2013-05-09",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5053461400"
+        "u": "https://www.gbif.org/occurrence/1987979246"
       }
     },
     {
@@ -20326,6 +20342,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -81.174944,
+          41.715833
+        ]
+      },
+      "properties": {
+        "s": "Mniaecia jungermanniae",
+        "d": "2021-01-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5053461400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.707677,
           41.578357
         ]
@@ -20342,15 +20374,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.13,
-          51.97
+          -125.067147,
+          49.661047
         ]
       },
       "properties": {
-        "s": "Mniaecia nivea",
-        "d": "2013-05-09",
+        "s": "Mniaecia jungermanniae",
+        "d": "2023-03-23",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1987979246"
+        "u": "https://www.gbif.org/occurrence/4075823325"
       }
     },
     {
@@ -20367,22 +20399,6 @@
         "d": "2011-04-28",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5053263792"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -125.067147,
-          49.661047
-        ]
-      },
-      "properties": {
-        "s": "Mniaecia jungermanniae",
-        "d": "2023-03-23",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4075823325"
       }
     },
     {
@@ -21734,15 +21750,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.6157,
-          39.5739
+          -75.449492,
+          45.688233
         ]
       },
       "properties": {
         "s": "Neottiella rutilans",
-        "d": "1977-08-26",
+        "d": "2018-08-26",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/2243336497"
+        "u": "https://www.gbif.org/occurrence/4166405491"
       }
     },
     {
@@ -21759,6 +21775,22 @@
         "d": "1971-09-12",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2243352875"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6157,
+          39.5739
+        ]
+      },
+      "properties": {
+        "s": "Neottiella rutilans",
+        "d": "1977-08-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/2243336497"
       }
     },
     {
@@ -21807,22 +21839,6 @@
         "d": "1973-08-24",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5196664456"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.449492,
-          45.688233
-        ]
-      },
-      "properties": {
-        "s": "Neottiella rutilans",
-        "d": "2018-08-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/4166405491"
       }
     },
     {
@@ -22070,6 +22086,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -76.501944,
+          42.443889
+        ]
+      },
+      "properties": {
+        "s": "Octospora leucoloma",
+        "d": "Unknown Date",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1990294998"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -78.85025,
           45.183005
         ]
@@ -22095,22 +22127,6 @@
         "d": "2024-11-12",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5292425725"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.501944,
-          42.443889
-        ]
-      },
-      "properties": {
-        "s": "Octospora leucoloma",
-        "d": "Unknown Date",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990294998"
       }
     },
     {
@@ -22175,6 +22191,22 @@
         "d": "1965-09-04",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2243341875"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.883333,
+          45.233333
+        ]
+      },
+      "properties": {
+        "s": "Octospora humosa",
+        "d": "1962-09-09",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4104522414"
       }
     },
     {
@@ -23510,6 +23542,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -84.07294,
+          36.21229
+        ]
+      },
+      "properties": {
+        "s": "Rimbachia bryophila",
+        "d": "2019-08-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/3417086311"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.961442,
           38.421017
         ]
@@ -23695,22 +23743,6 @@
         "d": "2026-01-24",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/6130129283"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.07294,
-          36.21229
-        ]
-      },
-      "properties": {
-        "s": "Rimbachia bryophila",
-        "d": "2019-08-26",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/3417086311"
       }
     },
     {
