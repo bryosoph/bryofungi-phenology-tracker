@@ -71,6 +71,10 @@ def matches_target_taxa(scientific_name):
 # MULTI-PLATFORM DATA RETRIEVAL PIPELINE
 # ==========================================
 
-SEARCH_TERMS = sorted(OPEN_GENERA.union({
+    SEARCH_TERMS = sorted(OPEN_GENERA.union({
     "arrhenia", "bryoglossum", "bryorutstroemia", "cistella", "dactylospora", 
-    "durella", "hilberina", "hymenoscy
+    "durella", "hilberina", "hymenoscyphus", "hyphodiscus", "mniaecia", 
+    "muscinupta", "neottiella", "octospora", "pezoloma", "pleostigma", 
+    "rickenella", "coniochaeta"
+}))
+    
