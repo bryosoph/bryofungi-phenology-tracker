@@ -3,46 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryophilous Fungi Phenology Map</title>
+    <title>Bryophilous Fungi Phenology Tracker</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
     <style>
-        body, html, #map { margin: 0; padding: 0; height: 100%; width: 100%; font-family: sans-serif; }
-        .popup-title { font-weight: bold; font-style: italic; color: #1e3a8a; font-size: 1.1em; }
-        .popup-meta { margin-top: 6px; font-size: 0.9em; color: #4b5563; line-height: 1.4; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        #map-container {
+            height: 500px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        .table-section {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+            gap: 10px;
+        }
+        h2 { margin: 0; font-size: 1.4rem; color: #1e293b; }
+        #search-box {
+            padding: 8px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            width: 250px;
+            font-size: 0.9rem;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            max-height: 400px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background-color: #f1f5f9;
+            color: #475569;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        tr:hover { background-color: #f8fafc; }
+        .btn-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div id="map"></div>
+
+    <div id="map-container"></div>
+
+    <div class="table-section">
+        <div class="table-header">
+            <h2>Phenology Registry Log</h2>
+            <input type="text" id="search-box" placeholder="Filter by genus, species, or platform..." onkeyup="filterTable()">
+        </div>
+        <div class="table-wrapper">
+            <table id="records-table">
+                <thead>
+                    <tr>
+                        <th>Taxon Name</th>
+                        <th>Observation Date</th>
+                        <th>Metadata Source</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
     <script>
-        // Centered over North America at zoom level 4 to capture the full continent
-        const map = L.map('map').setView([40.0, -97.0], 4); 
+        // Initialize Map centered over North America
+        const map = L.map('map-container').setView([50.0, -95.0], 4);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
+            attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
+        let allFeatures = [];
+
+        // Fetch dataset and parse downstream structures
         fetch('data.geojson')
             .then(res => res.json())
             .then(data => {
+                allFeatures = data.features;
+                
+                // Sort chronologically (newest records first)
+                allFeatures.sort((a, b) => new Date(b.properties.d) - new Date(a.properties.d));
+
+                // Populate Map Pins
                 L.geoJSON(data, {
                     onEachFeature: function (feature, layer) {
-                        const rawDate = feature.properties.d;
-                        const eventDate = new Date(rawDate + 'T00:00:00');
-                        const formattedDate = eventDate.toLocaleDateString('en-US', { 
-                            month: 'long', day: 'numeric', year: 'numeric' 
-                        });
-
-                        layer.bindPopup(`
-                            <div class="popup-title">${feature.properties.s}</div>
-                            <div class="popup-meta">
-                                <strong>Observed:</strong> ${formattedDate}<br>
-                                <strong>Platform:</strong> ${feature.properties.p}
-                            </div>
-                        `);
+                        if (feature.properties) {
+                            const props = feature.properties;
+                            layer.bindPopup(`
+                                <div style="font-size:13px; line-height:1.4;">
+                                    <strong><i>${props.s}</i></strong><br>
+                                    <b>Date:</b> ${props.d}<br>
+                                    <b>Source:</b> ${props.p}<br><br>
+                                    <a href="${props.u}" target="_blank" class="btn-link">🔗 View Original Record</a>
+                                </div>
+                            `);
+                        }
                     }
                 }).addTo(map);
+
+                // Populate Table List
+                renderTable(allFeatures);
+            })
+            .catch(err => console.error("Error building dashboard layouts:", err));
+
+        function renderTable(features) {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = "";
+
+            features.forEach(f => {
+                const props = f.properties;
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><strong><i>${props.s}</i></strong></td>
+                    <td>${props.d}</td>
+                    <td><span style="color:#475569;">${props.p}</span></td>
+                    <td><a href="${props.u}" target="_blank" class="btn-link">View Entry &rarr;</a></td>
+                `;
+                tbody.appendChild(row);
             });
-    </script>
-</body>
-</html>
+        }
+
+        function filterTable() {
+            const query = document.getElementById
