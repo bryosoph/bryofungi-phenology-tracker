@@ -112,7 +112,7 @@
         let allFeatures = [];
 
         // Fetch dataset and parse downstream structures
-        fetch('data.geojson')
+        fetch('https://sbenjeddi.github.io/bryosoph/data.geojson')
             .then(res => res.json())
             .then(data => {
                 allFeatures = data.features;
