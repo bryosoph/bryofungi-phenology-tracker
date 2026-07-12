@@ -32,9 +32,15 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Automation"
           git config --global user.email "actions@github.com"
-          git add data.geojson
+          
+          # Create an archive directory if it doesn't exist
+          mkdir -p archive
+          # Copy the newly generated data to a uniquely named file for your paper data
+          cp data.geojson "archive/records_$(date +%Y-%m-%d).geojson"
+          
+          git add data.geojson archive/
           if ! git diff-index --quiet HEAD --; then
-            git commit -m "Automated synchronization of phenology records"
+            git commit -m "Automated synchronization of phenology records and archive snapshot"
             git push
           else
             echo "No new biodiversity records found across platforms this week."
