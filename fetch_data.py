@@ -29,7 +29,7 @@ TARGET_SPECIES = {
     "octospora gemmicola", "octospora gyalectoides", "octospora humosa",
     "octospora itzerottii", "octospora leucoloma", "octospora lilacina",
     "octospora musci-muralis", "octospora orthotrichi", "octospora rustica",
-    "octosporella perforata", "pezoloma marchantiae", "pithyella chalaudii",
+    "octosporella perforata", "pezoloma marchantiae", "pithyella chalaudii", "pithyella trigona", 
     "pleostigma jungermannicola", "rickenella swartzii", "rimbachia arachnoidea",
     "rimbachia bryophila", "rimbachia neckerae"
 }
@@ -37,13 +37,13 @@ TARGET_SPECIES = {
 OPEN_GENERA = {
     "bryobroma", "bryocentria", "bryochiton", "bryonectria", "bryopistillaria", 
     "bryoscyphus", "bryosphaeria", "chromocyphella", "eocronartium", "epibryon", 
-    "gloeopeziza", "helotium", "lamprospora", "lizonia", "loreleia", "luteodiscus", 
+    "gloeopeziza", "lamprospora", "lizonia", "loreleia", "luteodiscus", 
     "octosporella", "pithyella", "potridiscus", "rimbachia"
 }
 
 EXCLUDED_CONIOCHAETA = {
     "coniochaeta ambigua", "coniochaeta leucoplaca", "coniochaeta ligniaria", 
-    "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina"
+    "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina", "pithyella hispida", 
 }
 
 def matches_target_taxa(scientific_name):
