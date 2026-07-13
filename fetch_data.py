@@ -31,7 +31,7 @@ TARGET_SPECIES = {
     "octospora musci-muralis", "octospora orthotrichi", "octospora rustica",
     "octosporella perforata", "pezoloma marchantiae", "pithyella chalaudii", "pithyella trigona", 
     "pleostigma jungermannicola", "rickenella swartzii", "rimbachia arachnoidea",
-    "rimbachia bryophila", "rimbachia neckerae"
+    "rimbachia bryophila", "rimbachia neckerae", "Trichosphaerella goniospora", 
 }
 
 OPEN_GENERA = {
