@@ -36,6 +36,17 @@ OPEN_GENERA = {
     "octosporella", "pithyella", "potridiscus", "rimbachia"
 }
 
+# Non-bryophilous species to explicitly drop
+EXCLUDED_TAXA = {
+    "helotium citrinum", "helotium aeruginosum", "helotium scutula",
+    "helotium cyathoideum", "helotium destructor", "helotium epiphyllum",
+    "helotium erraticum", "helotium fraternum", "helotium herbarum",
+    "helotium midlandense", "helotium populinum", "helotium schimperi",
+    "helotium sloaneae", "helotium urticae", "helotium virgultorum",
+    "coniochaeta ambigua", "coniochaeta leucoplaca", "coniochaeta ligniaria", 
+    "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina", "pithyella hispida"
+}
+
 def clean_records(input_path, output_path):
     # 1. Open and load the raw GeoJSON file
     with open(input_path, 'r', encoding='utf-8') as f:
