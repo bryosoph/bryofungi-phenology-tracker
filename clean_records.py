@@ -36,11 +36,6 @@ OPEN_GENERA = {
     "octosporella", "pithyella", "potridiscus", "rimbachia"
 }
 
-EXCLUDED_CONIOCHAETA = {
-    "coniochaeta ambigua", "coniochaeta leucoplaca", "coniochaeta ligniaria", 
-    "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina", "pithyella hispida", 
-}
-
 def clean_records(input_path, output_path):
     # 1. Open and load the raw GeoJSON file
     with open(input_path, 'r', encoding='utf-8') as f:
@@ -53,29 +48,30 @@ def clean_records(input_path, output_path):
         geometry = feature.get('geometry')
         properties = feature.get('properties', {})
         
-        # Clean up or standardize taxon names
-        taxon_name = properties.get('s', '')
+        taxon_name = properties.get('s', '').strip()
         
-        # Example fixes or regex cleanups:
+        # Clean up author names/trailing punctuation (e.g., "Lizonia (Cesati" -> "Lizonia", "Epibryon Döbbeler," -> "Epibryon")
         if taxon_name == "Lizonia (Cesati":
-            properties['s'] = "Lizonia"
-        elif taxon_name.endswith("("):
-            properties['s'] = taxon_name.rstrip("(").strip()
+            taxon_name = "Lizonia"
+        elif "(" in taxon_name:
+            taxon_name = taxon_name.split("(")[0].strip()
+        elif taxon_name.endswith(","):
+            taxon_name = taxon_name.rstrip(",").strip()
             
-        # Make sure properties are saved back to the feature
+        properties['s'] = taxon_name
         feature['properties'] = properties
         
-        # 3. Filtering checks before keeping the feature
+        # 3. Validation & Strict Inclusion Filtering
         if geometry and geometry.get('coordinates'):
-            name_lower = properties.get('s', '').strip().lower()
+            name_lower = taxon_name.lower()
             
-            # Skip if explicitly excluded
-            if name_lower in EXCLUDED_CONIOCHAETA:
-                continue
-                
-            # Optional: Add your inclusion criteria here (e.g., must match target species or open genera)
-            # For now, it keeps valid coordinates while filtering out exclusions.
-            cleaned_features.append(feature)
+            # Check if it matches an open genus (single word) or specific target species
+            name_parts = name_lower.split()
+            is_open_genus = len(name_parts) == 1 and name_lower in OPEN_GENERA
+            is_target_species = name_lower in TARGET_SPECIES
+            
+            if is_open_genus or is_target_species:
+                cleaned_features.append(feature)
             
     # 4. Update the GeoJSON structure with the cleaned features
     data['features'] = cleaned_features
