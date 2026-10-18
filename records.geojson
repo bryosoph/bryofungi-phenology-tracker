@@ -8582,22 +8582,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.9243633333,
-          45.408505
-        ]
-      },
-      "properties": {
-        "s": "Pithyella hispida",
-        "d": "2025-11-08",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/325548470"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -132.520508,
           53.403065
         ]
@@ -8607,38 +8591,6 @@
         "d": "2025-07-11",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/325139900"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.3287140997,
-          46.7513916997
-        ]
-      },
-      "properties": {
-        "s": "Pithyella hispida",
-        "d": "2025-10-25",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/323030686"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.0797293772,
-          35.5862396276
-        ]
-      },
-      "properties": {
-        "s": "Pithyella hispida",
-        "d": "2025-08-07",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/304736734"
       }
     },
     {
@@ -22358,22 +22310,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.924363,
-          45.408505
-        ]
-      },
-      "properties": {
-        "s": "Pithyella hispida",
-        "d": "2025-11-08",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5892419585"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -76.341587,
           45.105512
         ]
@@ -22383,22 +22319,6 @@
         "d": "2025-02-09",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/5064018226"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.079729,
-          35.58624
-        ]
-      },
-      "properties": {
-        "s": "Pithyella hispida",
-        "d": "2025-08-07",
-        "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/5890097387"
       }
     },
     {
