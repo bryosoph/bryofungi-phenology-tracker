@@ -112,7 +112,7 @@
         let allFeatures = [];
 
         // Fetch dataset and parse downstream structures
-        fetch('https://sbenjeddi.github.io/bryosoph/data.geojson')
+        fetch('https://bryosoph.github.io/bryofungi-phenology-tracker/data.geojson')
             .then(res => res.json())
             .then(data => {
                 allFeatures = data.features;
