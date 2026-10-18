@@ -1,18 +1,41 @@
-name: Clean records
-on:
-  push:
-    paths: ["data/records_raw.geojson", "clean_records.py"]
-permissions:
-  contents: write
-jobs:
-  clean:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: python clean_records.py data/records_raw.geojson records.geojson
-      - run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add records.geojson
-          git diff --staged --quiet || git commit -m "Regenerate records.geojson"
-          git push
+import json
+import sys
+
+def clean_records(input_path, output_path):
+    # 1. Open and load the raw GeoJSON file
+    with open(input_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    cleaned_features = []
+    
+    # 2. Loop through features and apply your cleaning logic
+    for feature in data.get('features', []):
+        geometry = feature.get('geometry')
+        properties = feature.get('properties', {})
+        
+        # Example check: Ensure the feature has valid geometry coordinates
+        if geometry and geometry.get('coordinates'):
+            
+            # TODO: Add any specific attribute cleaning here 
+            # (e.g., formatting dates, standardizing string fields, removing nulls)
+            
+            cleaned_features.append(feature)
+            
+    # 3. Update the GeoJSON structure with the cleaned features
+    data['features'] = cleaned_features
+    
+    # 4. Write out the cleaned records to the target path
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+        
+    print(f"Successfully cleaned {len(cleaned_features)} records and saved to {output_path}")
+
+if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        print("Usage: python clean_records.py <input_geojson> <output_geojson>")
+        sys.exit(1)
+        
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    
+    clean_records(input_file, output_file)
