@@ -1,0 +1,18 @@
+name: Clean records
+on:
+  push:
+    paths: ["data/records_raw.geojson", "clean_records.py"]
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python clean_records.py data/records_raw.geojson records.geojson
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add records.geojson
+          git diff --staged --quiet || git commit -m "Regenerate records.geojson"
+          git push
