@@ -158,6 +158,13 @@
                 tbody.appendChild(row);
             });
         }
-
-        function filterTable() {
-            const query = document.getElementById
+            function filterTable() {
+            const query = document.getElementById('search-box').value.toLowerCase();
+            const filtered = allFeatures.filter(f => {
+                const props = f.properties;
+                return (props.s && props.s.toLowerCase().includes(query)) ||
+                       (props.d && props.d.toLowerCase().includes(query)) ||
+                       (props.p && props.p.toLowerCase().includes(query));
+            });
+            renderTable(filtered);
+        }
