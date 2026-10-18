@@ -7,18 +7,26 @@ def clean_records(input_path, output_path):
         data = json.load(f)
     
     cleaned_features = []
-    
+
     # 2. Loop through features and apply your cleaning logic
     for feature in data.get('features', []):
         geometry = feature.get('geometry')
         properties = feature.get('properties', {})
         
-        # Example check: Ensure the feature has valid geometry coordinates
+        # Clean up or standardize taxon names
+        taxon_name = properties.get('s', '')
+        
+        # Example fixes or regex cleanups:
+        if taxon_name == "Lizonia (Cesati":
+            properties['s'] = "Lizonia"  # Or your desired corrected string
+        elif taxon_name.endswith("("):
+            properties['s'] = taxon_name.rstrip("(").strip()
+            
+        # Make sure properties are saved back to the feature
+        feature['properties'] = properties
+        
+        # Ensure the feature has valid geometry coordinates before keeping it
         if geometry and geometry.get('coordinates'):
-            
-            # TODO: Add any specific attribute cleaning here 
-            # (e.g., formatting dates, standardizing string fields, removing nulls)
-            
             cleaned_features.append(feature)
             
     # 3. Update the GeoJSON structure with the cleaned features
