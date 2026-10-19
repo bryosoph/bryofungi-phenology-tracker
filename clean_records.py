@@ -1,7 +1,12 @@
+import os
+import requests
 import json
-import sys
+from datetime import datetime
 
-# Define taxa you want to explicitly include/target
+# ==========================================
+# TARGET TAXA & GENERA CONFIGURATION
+# ==========================================
+
 TARGET_SPECIES = {
     "arrhenia retiruga", "belonium coroniforme", "belonioscyphella hypnorum", 
     "bryobroma microcarpum", "bryobroma microcarpum var. racomitrii", "bryobroma velenovskyi", 
@@ -65,7 +70,10 @@ OPEN_GENERA = {
     "potridiscus", "potriphila", "rimbachia", "roseodiscus"
 }
 
-# Non-bryophilous species to explicitly drop
+# Automatically include any genera derived from target species
+derived_target_genera = {s.split()[0] for s in TARGET_SPECIES}
+OPEN_GENERA = OPEN_GENERA.union(derived_target_genera)
+
 EXCLUDED_TAXA = {
     "helotium citrinum", "helotium aeruginosum", "helotium scutula",
     "helotium cyathoideum", "helotium destructor", "helotium epiphyllum",
@@ -76,50 +84,118 @@ EXCLUDED_TAXA = {
     "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina", "pithyella hispida"
 }
 
-def clean_records(input_path, output_path):
-    with open(input_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    cleaned_features = []
+# ==========================================
+# FETCHING & PROCESSING LOGIC
+# ==========================================
 
-    for feature in data.get('features', []):
-        geometry = feature.get('geometry')
-        properties = feature.get('properties', {})
-        
-        taxon_name = properties.get('s', '').strip()
-        
-        if taxon_name == "Lizonia (Cesati":
-            taxon_name = "Lizonia"
-        elif "(" in taxon_name:
-            taxon_name = taxon_name.split("(")[0].strip()
-        elif taxon_name.endswith(","):
-            taxon_name = taxon_name.rstrip(",").strip()
-            
-        properties['s'] = taxon_name
-        feature['properties'] = properties
-        
-        if geometry and geometry.get('coordinates'):
-            name_lower = taxon_name.lower()
-            name_parts = name_lower.split()
-            is_open_genus = len(name_parts) == 1 and name_lower in OPEN_GENERA
-            is_target_species = name_lower in TARGET_SPECIES
-            
-            if is_open_genus or is_target_species:
-                cleaned_features.append(feature)
-            
-    data['features'] = cleaned_features
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2)
-        
-    print(f"Successfully cleaned {len(cleaned_features)} records and saved to {output_path}")
+def fetch_inaturalist_observations():
+    url = "https://api.inaturalist.org/v1/observations"
+    features = []
+    seen_ids = set()
 
-if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        print("Usage: python clean_records.py <input_geojson> <output_geojson>")
-        sys.exit(1)
-        
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
+    # Query per genus to ensure robust coverage including Roseodiscus
+    queries_to_run = sorted(list(OPEN_GENERA))
+
+    for taxon_query in queries_to_run:
+        page = 1
+        while page <= 5:  # Safe pagination ceiling per genus
+            params = {
+                "taxon_name": taxon_query,
+                "quality_grade": "research",
+                "geoprivacy": "open",
+                "per_page": 200,
+                "page": page
+            }
+            try:
+                response = requests.get(url, params=params, timeout=15)
+                if response.status_code != 200:
+                    break
+                data = response.json()
+                results = data.get("results", [])
+                if not results:
+                    break
+
+                for obs in results:
+                    obs_id = obs.get("id")
+                    if obs_id in seen_ids:
+                        continue
+                    
+                    # Extract geometry
+                    geom = obs.get("geometry")
+                    loc = obs.get("location")
+                    lat, lon = None, None
+                    
+                    if geom and geom.get("coordinates"):
+                        lon, lat = geom["coordinates"]
+                    elif loc:
+                        lat_lon_str = loc.split(",")
+                        lat, lon = float(lat_lon_str[0]), float(lat_lon_str[1])
+
+                    if lat is None or lon is None:
+                        continue
+
+                    # Extract taxonomic identification
+                    taxa_info = obs.get("taxon", {})
+                    scientific_name = taxa_info.get("name", "").strip()
+
+                    # Apply cleaning rules
+                    if scientific_name == "Lizonia (Cesati":
+                        scientific_name = "Lizonia"
+                    elif "(" in scientific_name:
+                        scientific_name = scientific_name.split("(")[0].strip()
+                    elif scientific_name.endswith(","):
+                        scientific_name = scientific_name.rstrip(",").strip()
+
+                    name_lower = scientific_name.lower()
+
+                    # Filtering checks
+                    if name_lower in EXCLUDED_TAXA:
+                        continue
+
+                    name_parts = name_lower.split()
+                    is_open_genus = len(name_parts) == 1 and name_lower in OPEN_GENERA
+                    is_target_species = name_lower in TARGET_SPECIES
+
+                    if is_open_genus or is_target_species:
+                        seen_ids.add(obs_id)
+                        obs_date = obs.get("observed_on") or (obs.get("created_at", "")[:10])
+                        obs_url = f"https://www.inaturalist.org/observations/{obs_id}"
+
+                        feature = {
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [lon, lat]
+                            },
+                            "properties": {
+                                "s": scientific_name,
+                                "d": obs_date,
+                                "p": "iNaturalist",
+                                "u": obs_url
+                            }
+                        }
+                        features.append(feature)
+
+                if len(results) < 200:
+                    break
+                page += 1
+            except Exception as e:
+                print(f"Error querying {taxon_query}: {e}")
+                break
+
+    return features
+
+if __name__ == "__main__":
+    print("Fetching and cleaning records from iNaturalist...")
+    all_features = fetch_inaturalist_observations()
     
-    clean_records(input_file, output_file)
+    geojson_collection = {
+        "type": "FeatureCollection",
+        "features": all_features
+    }
+
+    output_filename = "records.geojson"
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(geojson_collection, f, indent=2)
+
+    print(f"Successfully generated {output_filename} with {len(all_features)} records (including Roseodiscus).")
