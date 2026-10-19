@@ -26,15 +26,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Fetcher Script
-        run: python fetch_data.py
+      - name: Run Fetcher and Cleaning Script
+        run: python fetch_and_clean.py
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          # Only commit if data.geojson has actually changed
-          git add data.geojson
+          # Only commit if records.geojson has actually changed
+          git add records.geojson
           if ! git diff-index --quiet HEAD --; then
             git commit -m "Automated update of bryophilous fungi records"
             git push
