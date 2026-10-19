@@ -1,5 +1,5 @@
 {
-  "type": "FeatureCollection", 
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
@@ -1302,22 +1302,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.2073,
-          35.7563
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2024-09-15",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/318352887"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.3826833333,
           45.5525133333
         ]
@@ -1327,22 +1311,6 @@
         "d": "2025-03-23",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/266690629"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.382627,
-          45.552473
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2025-03-23",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/266634072"
       }
     },
     {
@@ -1462,22 +1430,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.7281333333,
-          40.5511583333
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2024-09-13",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/242487801"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.4668633333,
           39.8937783333
         ]
@@ -1503,38 +1455,6 @@
         "d": "2024-08-01",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/233227254"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.9649388889,
-          45.4890861111
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2024-08-01",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/233226881"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.77288,
-          42.070575
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2024-07-17",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/230457048"
       }
     },
     {
@@ -1711,22 +1631,6 @@
         "d": "2024-01-25",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/198082368"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4644405,
-          38.5228205
-        ]
-      },
-      "properties": {
-        "s": "Chromocyphella",
-        "d": "2024-01-17",
-        "p": "iNaturalist",
-        "u": "https://www.inaturalist.org/observations/196959753"
       }
     },
     {
@@ -4438,6 +4342,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.1278052621,
+          33.7648831164
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora carbonicola",
+        "d": "2026-01-19",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/339427205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -113.466173932,
           37.4454073881
         ]
@@ -4447,6 +4367,22 @@
         "d": "2026-02-15",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/338719900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.647468,
+          32.04343471
+        ]
+      },
+      "properties": {
+        "s": "Lamprospora carbonicola",
+        "d": "2026-01-11",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/336651927"
       }
     },
     {
@@ -4614,6 +4550,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -125.2507037,
+          49.7567586099
+        ]
+      },
+      "properties": {
+        "s": "Lizonia sexangularis",
+        "d": "2026-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/352369889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -124.162376,
           49.273167
         ]
@@ -4646,6 +4598,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -80.0820152646,
+          45.2325356453
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-10-03",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/327562147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7628722771,
+          43.8487221563
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2025-10-18",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/322325803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.57306,
           48.77857
         ]
@@ -4655,6 +4639,102 @@
         "d": "2025-01-28",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/260075048"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.3584179158,
+          50.107935784
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2025-01-25",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/259586206"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.131378,
+          50.129864
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/213733081"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.13131,
+          50.129917
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/209394006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.131415,
+          50.1298133333
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/209263818"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.1305533333,
+          50.1302683333
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/209263788"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.1299516667,
+          50.1301733333
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2024-04-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/209263776"
       }
     },
     {
@@ -4687,6 +4767,38 @@
         "d": "2023-04-19",
         "p": "iNaturalist",
         "u": "https://www.inaturalist.org/observations/155797421"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5462034941,
+          43.9584801419
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2023-03-31",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/152988237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.0673133333,
+          49.6609833333
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2023-03-23",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/152092156"
       }
     },
     {
@@ -7862,6 +7974,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -111.2348466667,
+          45.396
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2026-06-13",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/371824883"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.1254533333,
+          54.4631883333
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-09-18",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/318261220"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.422646029,
+          50.4723454113
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-03-10",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/265012271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.4228235731,
+          50.4723044525
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-03-10",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/265012243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.8458682809,
+          50.1065001038
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2024-03-24",
+        "p": "iNaturalist",
+        "u": "https://www.inaturalist.org/observations/203902359"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -72.3815623,
           43.8392485
         ]
@@ -10038,6 +10230,134 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -87.698806,
+          34.810727
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-02-07",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928598901"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.26486,
+          35.17576
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria chrysothrix",
+        "d": "2016-10-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930873598"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.507,
+          34.691
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria chrysothrix",
+        "d": "2016-11-17",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930875796"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12023,
+          35.10939
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria chrysothrix",
+        "d": "2016-10-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929722969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.699004,
+          34.810995
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-01-14",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929682820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.698806,
+          34.810727
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-02-06",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929985925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.06596,
+          32.66818
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria pentamera",
+        "d": "2015-02-08",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928442401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.11201,
+          32.67497
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria pentamera",
+        "d": "2015-01-29",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928461415"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -64.9836,
           45.5897
         ]
@@ -10047,6 +10367,102 @@
         "d": "2013-09-24",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1931049291"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.25212,
+          34.80617
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria chrysothrix",
+        "d": "2016-10-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928457672"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69349,
+          36.13487
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria navicula",
+        "d": "2015-11-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930105371"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.50753,
+          34.31286
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria pentamera",
+        "d": "2016-04-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929201254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.974272,
+          34.237159
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-05-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929839238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.38224,
+          34.85634
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-10-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930818907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.99208,
+          35.31672
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria navicula",
+        "d": "2016-03-17",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928431217"
       }
     },
     {
@@ -10102,6 +10518,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -83.99085,
+          35.31529
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria navicula",
+        "d": "2016-03-17",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929157176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -81.69273,
           36.13401
         ]
@@ -10127,6 +10559,70 @@
         "d": "2016-03-18",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/1927999253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.79914,
+          34.86604
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria lusor",
+        "d": "2016-01-07",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930690839"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.07088,
+          35.31363
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria navicula",
+        "d": "2014-08-17",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928833286"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.78936,
+          33.41469
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria biannulata",
+        "d": "2016-01-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928168867"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.11201,
+          32.67497
+        ]
+      },
+      "properties": {
+        "s": "Bryocentria pentamera",
+        "d": "2015-02-08",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930938663"
       }
     },
     {
@@ -11087,6 +11583,614 @@
         "d": "2002-08-16",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/2243348029"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65464,
+          34.85719
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-07-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928426714"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6194,
+          34.90814
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-05-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929514344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.89417,
+          34.2345
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-12-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929497877"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6194,
+          34.90814
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-05-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931218483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.89399,
+          34.23424
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-12-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931247718"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.06177,
+          33.19904
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-12-31",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930714942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.38239,
+          34.29196
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-02-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929946452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.99123,
+          34.23505
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-05-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931153088"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12023,
+          35.10939
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-10-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930609574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.78452,
+          34.58319
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-12-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928244229"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.69743,
+          33.70257
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-09-29",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928759996"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9922,
+          34.24548
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-05-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928303030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.22034,
+          35.01118
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-08-02",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931308648"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.27708,
+          34.8101
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-10-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931059511"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96702,
+          34.65498
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-05-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929253835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.77855,
+          34.56425
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-12-13",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930941900"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.38101,
+          34.28916
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-02-27",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930294158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.58081,
+          35.03031
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-08-04",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929910840"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.39355,
+          34.28454
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-01-16",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929667045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68869,
+          34.84997
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2013-07-28",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931042750"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96553,
+          34.64628
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-04-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928762843"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61933,
+          34.90778
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2015-05-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929941457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.33815,
+          34.28655
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929053558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7547,
+          35.4292
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928725745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.34129,
+          34.29012
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930740583"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.974272,
+          34.237159
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-05-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930918000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.34623,
+          34.2922
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930327907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.54734,
+          35.12139
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria anisopoda",
+        "d": "2015-08-07",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928666003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.1156,
+          45.6433
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria cuneifera",
+        "d": "2013-09-25",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930268770"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.52145,
+          34.93281
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria anisopoda",
+        "d": "2013-08-05",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928230573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.50753,
+          34.31286
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-04-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931152769"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.75123,
+          35.43104
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929032994"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.39195,
+          34.26691
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-29",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1929081344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.02567,
+          35.30567
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-17",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1931141022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74974,
+          35.43544
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928000409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.9544,
+          44.4408
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria hylocomii",
+        "d": "2013-07-11",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930244987"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74817,
+          35.43708
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria callicarpa",
+        "d": "2016-03-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1927908214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.60422,
+          35.07303
+        ]
+      },
+      "properties": {
+        "s": "Bryonectria anisopoda",
+        "d": "2015-10-24",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1930498972"
       }
     },
     {
@@ -13126,6 +14230,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.33,
+          51.75
+        ]
+      },
+      "properties": {
+        "s": "Gloeopeziza interlamellaris",
+        "d": "1905-07-26",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1949848835"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.140174,
           44.125193
         ]
@@ -13350,15 +14470,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.794167,
-          35.519444
+          -82.7539,
+          39.387
         ]
       },
       "properties": {
-        "s": "Lamprospora wrightii",
-        "d": "1941-03-23",
+        "s": "Lamprospora tuberculata",
+        "d": "2019-06-23",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990286917"
+        "u": "https://www.gbif.org/occurrence/5083770401"
       }
     },
     {
@@ -13366,15 +14486,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.078056,
-          36.025
+          -156.73,
+          71.297
         ]
       },
       "properties": {
-        "s": "Lamprospora wrightii",
-        "d": "1944-01-01",
+        "s": "Lamprospora dictydiola",
+        "d": "1980-08-18",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990289566"
+        "u": "https://www.gbif.org/occurrence/125741238"
       }
     },
     {
@@ -13382,15 +14502,79 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.078333,
-          36.025
+          -75.92,
+          78.88
         ]
       },
       "properties": {
-        "s": "Lamprospora wrightii",
-        "d": "1934-03-04",
+        "s": "Lamprospora minuta",
+        "d": "1984-07-24",
         "p": "GBIF/Herbarium",
-        "u": "https://www.gbif.org/occurrence/1990278781"
+        "u": "https://www.gbif.org/occurrence/5196645941"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.358418,
+          50.107936
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2025-01-25",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5206355467"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.762872,
+          43.848722
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2025-10-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5889763764"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.067313,
+          49.660983
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2023-03-23",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4075842318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.033333,
+          49.016667
+        ]
+      },
+      "properties": {
+        "s": "Lizonia sexangularis",
+        "d": "1980-08-11",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4166369653"
       }
     },
     {
@@ -13414,6 +14598,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.863611,
+          45.085277
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2016-09-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4026571417"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -145.403,
           65.4844
         ]
@@ -13423,6 +14623,54 @@
         "d": "Unknown Date",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/4438026313"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863333,
+          45.08527
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2016-09-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5898594506"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8636,
+          45.0853
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2016-09-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928119820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.863611,
+          45.085278
+        ]
+      },
+      "properties": {
+        "s": "Lizonia emperigonia",
+        "d": "2016-09-20",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/4099584252"
       }
     },
     {
@@ -15583,6 +16831,70 @@
         "d": "1962-09-09",
         "p": "GBIF/Herbarium",
         "u": "https://www.gbif.org/occurrence/4104522414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.422824,
+          50.472304
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-03-10",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5216718584"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.422646,
+          50.472345
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-03-10",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5217005571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.125453,
+          54.463188
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2025-09-18",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/5844340554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.695278,
+          37.053889
+        ]
+      },
+      "properties": {
+        "s": "Octosporella jungermanniarum",
+        "d": "2004-11-04",
+        "p": "GBIF/Herbarium",
+        "u": "https://www.gbif.org/occurrence/1928558201"
       }
     },
     {
