@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ==========================================
 # TARGET BRYOPHILOUS TAXA FILTER CONFIGURATION
-# ========================================== 
+# ==========================================  
 
 TARGET_SPECIES = {
     "arrhenia retiruga", "belonium coroniforme", "belonioscyphella hypnorum", 
@@ -19,7 +19,7 @@ TARGET_SPECIES = {
     "bryoscyphus turbinatus", "bryosphaeria bryophila", "bryostroma trichostomi", 
     "bryotria lagodes", "bryotria adelpha", "bryotria urophora", "bryonectria aphanes", 
     "bryonectria phyllogena", "bryonectria cuneifera", "bryonectria hylocomii", 
-    "bryonectria anisopoda", "bryonectria callicarpa", "chlorociboria lamellicola", 
+    "bryonectria anisopoda", "bryonectria callicarpa", 
     "chromocyphella muscicola", "cistella polytrichi", "dactylospora scapanaria", 
     "dawsomyces subinvisibilis", "durella polytrichina", "eocronartium muscicola", 
     "epibryon arachnoideum", "epibryon bryophilum", "epibryon bubakii", 
@@ -64,7 +64,7 @@ TARGET_SPECIES = {
 
 OPEN_GENERA = {
     "bryobroma", "bryocentria", "bryotria", "bryochiton", "bryonectria", "bryopistillaria", 
-    "bryoscyphus", "bryosphaeria", "chromocyphella", "eocronartium", "epibryon", 
+    "bryoscyphus", "bryosphaeria", "eocronartium", "epibryon", 
     "filicupula", "gloeopeziza", "lamprospora", "lizonia", "loreleia", 
     "luteodiscus", "octospora", "octosporella", "periantria", "pithyella", 
     "potridiscus", "potriphila", "rimbachia"
@@ -75,6 +75,11 @@ EXCLUDED_CONIOCHAETA = {
     "coniochaeta pulveracea", "coniochaeta vagans", "coniochaeta velutina", "pithyella hispida", 
 }
 
+# Automatically extract all unique first words (genera) from TARGET_SPECIES 
+# so new additions like Roseodiscus are never missed by search queries.
+derived_target_genera = {s.split()[0] for s in TARGET_SPECIES}
+OPEN_GENERA = OPEN_GENERA.union(derived_target_genera)
+
 def matches_target_taxa(scientific_name):
     if not scientific_name:
         return False
@@ -83,7 +88,7 @@ def matches_target_taxa(scientific_name):
     if not words:
         return False
     genus = words[0]
-    
+     
     if name_clean in TARGET_SPECIES:
         return True
     if len(words) >= 2:
